@@ -37,6 +37,27 @@ public class ContatoDAO {
             return false;
         }
     }
+
+    public boolean atualizarContato(Contato contato) {
+        try {
+            Connection conexao = dao.conectar();
+
+            PreparedStatement updateRow = conexao.prepareStatement("INSERT INTO contato (nome, telefone)" +
+                    "VALUES (?, ?);", Statement.RETURN_GENERATED_KEYS);
+
+            updateRow.setString(1, contato.getNome());
+            updateRow.setString(2, contato.getTelefone());
+
+            int rowsAffected = updateRow.executeUpdate();
+            conexao.close();
+            return rowsAffected > 0;
+
+        } catch (Exception e) {
+            System.out.println(e);
+            return false;
+        }
+    }
+
     public int getId(){
         return id;
     }

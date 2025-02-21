@@ -1,8 +1,6 @@
 package view;
-
 import controller.*;
 import model.*;
-
 import java.util.Scanner;
 
 public class Main {
@@ -12,7 +10,7 @@ public class Main {
 
         while (true) {
             System.out.println("\n\n******* Escolha uma Opção *******");
-            System.out.println("\n1- Inserir/Remover Lista\n2- Novo Contato");
+            System.out.println("\n1- Inserir/Remover Lista\n2- Novo Contato\n3- Atualizar Lista");
             int op = sc.nextInt();
 
             switch (op) {

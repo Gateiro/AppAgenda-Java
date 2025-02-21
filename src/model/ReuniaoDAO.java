@@ -1,5 +1,6 @@
 package model;
 
+import controller.Lista;
 import controller.Reuniao;
 
 import java.sql.Connection;
@@ -32,6 +33,26 @@ public class ReuniaoDAO {
             } else {
                 return false;
             }
+
+        } catch (Exception e) {
+            System.out.println(e);
+            return false;
+        }
+    }
+
+    public boolean atualizarReuniao(Reuniao reuniao) {
+        try {
+            Connection conexao = dao.conectar();
+
+            PreparedStatement updateRow = conexao.prepareStatement("UPDATE Reunioes SET DATA = ?, motivo_reuniao = ?, link = ? WHERE id = ?;");
+
+            updateRow.setString(1, reuniao.getData());
+            updateRow.setString(2, reuniao.getMotivoReuniao());
+            updateRow.setString(3, reuniao.getLink());
+
+            int rowsAffected = updateRow.executeUpdate();
+            conexao.close();
+            return rowsAffected > 0;
 
         } catch (Exception e) {
             System.out.println(e);
