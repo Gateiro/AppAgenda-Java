@@ -5,20 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0c2bff6-ba4f-4a07-a43b-a62eca30b5bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppAgenda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AppAgenda.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ContatoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ContatoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/EnderecoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/EnderecoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/InfoReuniaoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/InfoReuniaoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ReuniaoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ReuniaoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/DAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +39,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/matheus.rvieira5.SENACEDU/Documents/mysql-connector-j-9.2.0/mysql-connector-j-9.2.0.jar",
+    "last_opened_file_path": "C:/Users/matheus.rvieira5.SENACEDU/Documents/Github/Driver/mysql-connector-j-9.2.0/mysql-connector-j-9.2.0.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,6 +72,7 @@
       <workItem from="1740090327955" duration="286000" />
       <workItem from="1740090636544" duration="94000" />
       <workItem from="1740090887622" duration="4753000" />
+      <workItem from="1740527255000" duration="3858000" />
     </task>
     <servers />
   </component>
